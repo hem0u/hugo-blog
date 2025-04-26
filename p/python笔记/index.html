@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="在markdown源代码中回车接着写并不能实现换行\n行尾添加两个空格\n1 111 ">
-<title>markdown的基础语法</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="一、python的环境配置 1.安装 python 在官网【Download Python | Python.org】进行下载，在安装时勾选Path选项\npython 和 python3 是两个工具:windows 用户会有别名(powershell cmdlet alias)优化(python=python3)，而其它系统用户记得区分二者\n">
+<title>Python笔记</title>
 
-<link rel='canonical' href='https://hem0u.github.io/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/'>
+<link rel='canonical' href='https://hem0u.github.io/hugo-blog/p/python%E7%AC%94%E8%AE%B0/'>
 
-<link rel="stylesheet" href="/hugo-blog/scss/style.min.de077bb2bee45d44fa7e33e993bd49f81aeda763129ffcdd593da563ed9e1dc1.css"><meta property='og:title' content="markdown的基础语法">
-<meta property='og:description' content="在markdown源代码中回车接着写并不能实现换行\n行尾添加两个空格\n1 111 ">
-<meta property='og:url' content='https://hem0u.github.io/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/'>
+<link rel="stylesheet" href="/hugo-blog/scss/style.min.de077bb2bee45d44fa7e33e993bd49f81aeda763129ffcdd593da563ed9e1dc1.css"><meta property='og:title' content="Python笔记">
+<meta property='og:description' content="一、python的环境配置 1.安装 python 在官网【Download Python | Python.org】进行下载，在安装时勾选Path选项\npython 和 python3 是两个工具:windows 用户会有别名(powershell cmdlet alias)优化(python=python3)，而其它系统用户记得区分二者\n">
+<meta property='og:url' content='https://hem0u.github.io/hugo-blog/p/python%E7%AC%94%E8%AE%B0/'>
 <meta property='og:site_name' content='DECADE'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-04-25T22:24:08&#43;08:00'/><meta property='og:image' content='https://hem0u.github.io/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/image1.png' />
-<meta name="twitter:title" content="markdown的基础语法">
-<meta name="twitter:description" content="在markdown源代码中回车接着写并不能实现换行\n行尾添加两个空格\n1 111 "><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://hem0u.github.io/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/image1.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-26T15:40:47&#43;08:00'/><meta property='article:modified_time' content='2025-04-26T21:41:16&#43;08:00'/><meta property='og:image' content='https://hem0u.github.io/hugo-blog/p/python%E7%AC%94%E8%AE%B0/image.png' />
+<meta name="twitter:title" content="Python笔记">
+<meta name="twitter:description" content="一、python的环境配置 1.安装 python 在官网【Download Python | Python.org】进行下载，在安装时勾选Path选项\npython 和 python3 是两个工具:windows 用户会有别名(powershell cmdlet alias)优化(python=python3)，而其它系统用户记得区分二者\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://hem0u.github.io/hugo-blog/p/python%E7%AC%94%E8%AE%B0/image.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -260,19 +260,53 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#1安装-python">1.安装 python</a></li>
+    <li><a href="#2pip">2.pip</a></li>
+    <li><a href="#3venv">3.venv</a></li>
+    <li><a href="#4vscode的配置">4.VSCode的配置</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">
-                <img src="/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/image1_hu_8c688120c7f80747.png"
-                        srcset="/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/image1_hu_8c688120c7f80747.png 800w, /hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/image1_hu_432428042a8c4356.png 1600w"
+            <a href="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/">
+                <img src="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/image_hu_beb038a27bdf36a.png"
+                        srcset="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/image_hu_beb038a27bdf36a.png 800w, /hugo-blog/p/python%E7%AC%94%E8%AE%B0/image_hu_ab10f55f797f3fb3.png 1600w"
                         width="800" 
-                        height="547" 
+                        height="548" 
                         loading="lazy"
-                        alt="Featured image of post markdown的基础语法" />
+                        alt="Featured image of post Python笔记" />
                 
             </a>
         </div>
@@ -283,7 +317,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/hugo-blog/p/markdown%E7%9A%84%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/">markdown的基础语法</a>
+            <a href="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/">Python笔记</a>
         </h2>
     
         
@@ -305,7 +339,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2025-04-25</time>
+                <time class="article-time--published">2025-04-26</time>
             </div>
         
 
@@ -321,17 +355,137 @@
     <section class="article-content">
     
     
-    <p>在markdown源代码中回车接着写并不能实现换行<br>
-行尾添加两个空格</p>
+    <h1 id="一python的环境配置">一、python的环境配置
+</h1><h2 id="1安装-python">1.安装 python
+</h2><p>在官网【<a class="link" href="https://www.python.org/downloads/"  target="_blank" rel="noopener"
+    >Download Python | Python.org</a>】进行下载，在安装时勾选<strong>Path</strong>选项</p>
+<p>python 和 python3 是两个工具:windows 用户会有别名(powershell cmdlet alias)优化(python=python3)，而其它系统用户记得区分二者</p>
+<p><img src="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic1.png"
+	width="1912"
+	height="920"
+	srcset="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic1_hu_e794e44664659ba4.png 480w, /hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic1_hu_bcbab1fae43f348b.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="207"
+		data-flex-basis="498px"
+	
+></p>
+<p>安装后可打开Windows PowerShell输入<code>python --version</code>进行验证，出现正确的版本号即为安装成功</p>
+<p><img src="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic2.png"
+	width="829"
+	height="205"
+	srcset="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic2_hu_d70362158f535457.png 480w, /hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic2_hu_6b1d4234e7d12e31.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="404"
+		data-flex-basis="970px"
+	
+></p>
+<h2 id="2pip">2.pip
+</h2><p>用于<strong>安装包</strong>与<strong>卸载包</strong>，例</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="mi">111</span>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">tqdm</span>
+</span></span><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">uninstall</span> <span class="n">tqdm</span>
 </span></span></code></pre></td></tr></table>
 </div>
+</div><p>tqdm 是用于显示进度条的包，安装后可以用<code>import tqdm</code>调用</p>
+<p><strong>【e.g.】</strong> test.py</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">#假设正在进行一些耗时的操作</span>
+</span></span><span class="line"><span class="cl">    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.01</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
+</div><p><strong>pip换源</strong></p>
+<p><strong>【看】</strong> 换源的解释：</p>
+<p><img src="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic3.png"
+	width="504"
+	height="302"
+	srcset="/hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic3_hu_b040c70fec158173.png 480w, /hugo-blog/p/python%E7%AC%94%E8%AE%B0/pic3_hu_68d76676d079749.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="166"
+		data-flex-basis="400px"
+	
+></p>
+<p>阿里的源较稳定【 <a class="link" href="https://developer.aliyun.com/mirror/"  target="_blank" rel="noopener"
+    >https://developer.aliyun.com/mirror/</a> 】</p>
+<p><strong>【看】</strong> 官方换源的方法：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">config</span> <span class="nb">set</span> <span class="k">global</span><span class="o">.</span><span class="n">index</span><span class="o">-</span><span class="n">url</span> <span class="p">{</span><span class="n">source_url</span><span class="p">}</span> <span class="c1">#永久</span>
+</span></span><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">tqdm</span> <span class="o">-</span><span class="n">i</span> <span class="p">{</span><span class="n">source_url</span><span class="p">}</span> <span class="c1">#临时</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>【注】</strong> 我自己使用的方法：</p>
+<p>在用户文件夹下创建<code>pip/pip.ini</code>，写入以下内容</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[</span><span class="k">global</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">index</span><span class="o">-</span><span class="n">url</span> <span class="o">=</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">mirrors</span><span class="o">.</span><span class="n">aliyun</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pypi</span><span class="o">/</span><span class="n">simple</span><span class="o">/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">install</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">trusted</span><span class="o">-</span><span class="n">host</span><span class="o">=</span><span class="n">mirrors</span><span class="o">.</span><span class="n">aliyun</span><span class="o">.</span><span class="n">com</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>包的位置</strong></p>
+<p>安装目录下的<code>Scripts</code>文件夹内</p>
+<h2 id="3venv">3.venv
+</h2><p>venv是创建虚拟环境，用与版本隔离(推荐使用虚拟环境)</p>
+<p><strong>venv的基本命令</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">venv</span> <span class="p">{</span><span class="n">vitualenv_name</span><span class="p">}</span> <span class="c1">#创建虚拟环境</span>
+</span></span><span class="line"><span class="cl"><span class="n">source</span> <span class="o">./</span><span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span> <span class="c1"># Bash/ZSH(macOs + most Linux distro)</span>
+</span></span><span class="line"><span class="cl"><span class="o">./</span><span class="n">venv</span><span class="o">/</span><span class="n">Scripts</span><span class="o">/</span><span class="n">activate</span> <span class="c1">#Windows 启动venv</span>
+</span></span><span class="line"><span class="cl"><span class="n">deactivate</span> <span class="c1">#退出venv</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="4vscode的配置">4.VSCode的配置
+</h2><p>vscode 官网 【<a class="link" href="https://code.visualstudio.com/"  target="_blank" rel="noopener"
+    >Visual Studio Code - Code Editing. Redefined</a>】 &gt; 下载 vscode</p>
+<p>vscode &gt; 扩展（extension tab) &gt; 搜索<code>python</code> &gt; 安装</p>
+<img src="pic4.png"  />
+<p>恭喜你，到这一步，已经可以运行.py文件了！🥳🥳</p>
+
 </section>
 
 
@@ -348,7 +502,7 @@
 
 
         <span>
-            最后更新于 Apr 25, 2025 22:24 &#43;0800
+            最后更新于 Apr 26, 2025 21:41 &#43;0800
         </span>
     </section></footer>
 
