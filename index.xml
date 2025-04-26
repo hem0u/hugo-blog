@@ -120,7 +120,7 @@
 &lt;/div&gt;&lt;p&gt;&lt;strong&gt;包的位置&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;安装目录下的&lt;code&gt;Scripts&lt;/code&gt;文件夹内&lt;/p&gt;
 &lt;h2 id=&#34;3venv&#34;&gt;3.venv
-&lt;/h2&gt;&lt;p&gt;venv是创建虚拟环境，用与版本隔离(推荐使用虚拟环境)&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;venv是创建虚拟环境，用与版本隔离(推荐在项目编写时使用虚拟环境)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;venv的基本命令&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -142,7 +142,8 @@
 &lt;p&gt;vscode &amp;gt; 扩展（extension tab) &amp;gt; 搜索&lt;code&gt;python&lt;/code&gt; &amp;gt; 安装&lt;/p&gt;
 &lt;img src=&#34;pic4.png&#34;  /&gt;
 &lt;p&gt;恭喜你，到这一步，已经可以运行.py文件了！🥳🥳&lt;/p&gt;
-</description>
+&lt;h1 id=&#34;二基础语法&#34;&gt;二、基础语法
+&lt;/h1&gt;</description>
         </item>
         <item>
         <title>Test</title>
