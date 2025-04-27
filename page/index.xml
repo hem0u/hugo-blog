@@ -6,8 +6,8 @@
         <description>Recent content in Pages on DECADE</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>DECADE</copyright>
-        <lastBuildDate>Sun, 27 Apr 2025 15:22:42 +0800</lastBuildDate><atom:link href="https://hem0u.github.io/hugo-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>DECADE0888</copyright>
+        <lastBuildDate>Sun, 27 Apr 2025 18:40:54 +0800</lastBuildDate><atom:link href="https://hem0u.github.io/hugo-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>更新日志</title>
         <link>https://hem0u.github.io/hugo-blog/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
         <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
@@ -17,60 +17,36 @@
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;更新日期&lt;/th&gt;
-          &lt;th&gt;版本号&lt;/th&gt;
-          &lt;th&gt;类型&lt;/th&gt;
-          &lt;th&gt;更新内容&lt;/th&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;完成时间&lt;/th&gt;
+          &lt;th&gt;备注&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-15&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.8.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;新增&lt;/td&gt;
-          &lt;td&gt;暗黑模式自动切换功能&lt;/td&gt;
+          &lt;td&gt;装修关于页&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-15&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.8.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;优化&lt;/td&gt;
-          &lt;td&gt;移动端目录导航响应速度&lt;/td&gt;
+          &lt;td&gt;增加分类&amp;amp;标签页&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-15&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.8.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;修复&lt;/td&gt;
-          &lt;td&gt;代码块行号对齐问题&lt;/td&gt;
+          &lt;td&gt;修复归档页面的布局&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-02&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.7.3&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;新增&lt;/td&gt;
-          &lt;td&gt;支持 Mermaid 图表渲染&lt;/td&gt;
+          &lt;td&gt;修复更新日志透明背景为白色背景&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-02&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.7.3&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;变更&lt;/td&gt;
-          &lt;td&gt;默认字体调整为 Inter + JetBrains Mono&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-10-18&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.6.5&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;修复&lt;/td&gt;
-          &lt;td&gt;RSS 订阅链接失效问题&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-10-05&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.6.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;新增&lt;/td&gt;
-          &lt;td&gt;多语言切换导航栏&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2022-12-20&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v1.4.2&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;初始&lt;/td&gt;
-          &lt;td&gt;发布基础版本&lt;/td&gt;
+          &lt;td&gt;&lt;del&gt;整个布局大更新&lt;/del&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;2025-04-27&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;参考了很多人的文档，有空整理&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

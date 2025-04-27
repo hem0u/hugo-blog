@@ -6,7 +6,264 @@
         <description>Recent content on DECADE</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>DECADE</copyright><atom:link href="https://hem0u.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>DECADE0888</copyright><atom:link href="https://hem0u.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ai_infra学习计划</title>
+        <link>https://hem0u.github.io/hugo-blog/p/ai_infra%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</link>
+        <pubDate>Sun, 27 Apr 2025 18:31:21 +0800</pubDate>
+        
+        <guid>https://hem0u.github.io/hugo-blog/p/ai_infra%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</guid>
+        <description>&lt;img src="https://hem0u.github.io/hugo-blog/p/ai_infra%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/image.png" alt="Featured image of post Ai_infra学习计划" /&gt;&lt;p&gt;以下是一份 &lt;strong&gt;超详细的 AI Infrastructure 学习路线&lt;/strong&gt;，涵盖从基础到前沿的所有关键领域，并附带 &lt;strong&gt;书籍、课程、论文、开源项目&lt;/strong&gt; 等具体资源推荐。内容分为 &lt;strong&gt;6 个阶段&lt;/strong&gt;，每个阶段包含学习目标、核心知识点和配套资源。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;阶段-1计算机科学与数学基础&#34;&gt;&lt;strong&gt;阶段 1：计算机科学与数学基础&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;目标&#34;&gt;&lt;strong&gt;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;掌握编程、算法、操作系统和数学基础，为后续分布式系统和机器学习打基础。&lt;/p&gt;
+&lt;h3 id=&#34;核心内容&#34;&gt;&lt;strong&gt;核心内容&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;1.&lt;strong&gt;编程语言&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;（ML 主流语言）：掌握 NumPy、Pandas、多线程/多进程。
+&lt;ul&gt;
+&lt;li&gt;推荐资源：《Python Crash Course》（书）、&lt;a class=&#34;link&#34; href=&#34;https://docs.python.org/3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Python 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C++&lt;/strong&gt;（高性能计算）：理解内存管理、指针、STL。
+&lt;ul&gt;
+&lt;li&gt;推荐资源：《Effective C++》（书）、&lt;a class=&#34;link&#34; href=&#34;https://isocpp.github.io/CppCoreGuidelines/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;C++ Core Guidelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bash/Shell&lt;/strong&gt;：Linux 环境下的脚本编写。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.&lt;strong&gt;数据结构与算法&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;重点：哈希表、树（B+树）、图算法、动态规划。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《算法导论》（CLRS）&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://web.stanford.edu/class/cs161/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stanford CS161: Design and Analysis of Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;刷题：&lt;a class=&#34;link&#34; href=&#34;https://leetcode.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LeetCode&lt;/a&gt;（至少 200 题）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3.&lt;strong&gt;操作系统&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进程/线程调度、虚拟内存、文件系统、IO 模型（epoll）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Operating Systems: Three Easy Pieces》（免费&lt;a class=&#34;link&#34; href=&#34;http://pages.cs.wisc.edu/~remzi/OSTEP/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;在线版&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://pdos.csail.mit.edu/6.S081/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MIT 6.S081: Operating Systems Engineering&lt;/a&gt;（基于 RISC-V 实践）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4.&lt;strong&gt;计算机网络&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TCP/IP 协议栈、HTTP/2、gRPC、WebSocket。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Computer Networking: A Top-Down Approach》&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://cs144.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stanford CS144: Introduction to Computer Networking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;5.&lt;strong&gt;数学基础&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;线性代数&lt;/strong&gt;：矩阵分解、特征值、张量运算。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;概率统计&lt;/strong&gt;：贝叶斯定理、假设检验。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优化理论&lt;/strong&gt;：梯度下降、凸优化。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Mathematics for Machine Learning》（剑桥大学出版）&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MIT 18.06: Linear Algebra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;阶段-2分布式系统与云计算&#34;&gt;&lt;strong&gt;阶段 2：分布式系统与云计算&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;目标-1&#34;&gt;&lt;strong&gt;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;掌握分布式计算、存储、调度和云原生技术，为 AI 大规模训练和部署做准备。&lt;/p&gt;
+&lt;h3 id=&#34;核心内容-1&#34;&gt;&lt;strong&gt;核心内容&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;1.&lt;strong&gt;分布式计算框架&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MapReduce、Spark、Flink（批流一体）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Big Data: Principles and Best Practices》&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://people.eecs.berkeley.edu/~yelick/cs267/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UC Berkeley CS267: Distributed Systems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.&lt;strong&gt;存储系统&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分布式文件系统（HDFS、S3）、数据库（PostgreSQL、MongoDB）、缓存（Redis）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Designing Data-Intensive Applications》（DDIA，必读）&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://15445.courses.cs.cmu.edu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CMU 15-445: Database Systems&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3.&lt;strong&gt;资源调度与容器化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes（K8s）、Docker、YARN。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Kubernetes in Action》&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://kubernetes.io/docs/tutorials/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kubernetes 官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;4.&lt;strong&gt;云服务（AWS/GCP/Azure）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学习 EC2、S3、Lambda、SageMaker（AWS）、Vertex AI（GCP）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://aws.amazon.com/certification/certified-machine-learning-specialty/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AWS Certified Machine Learning Specialty&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;阶段-3机器学习与深度学习基础&#34;&gt;&lt;strong&gt;阶段 3：机器学习与深度学习基础&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;目标-2&#34;&gt;&lt;strong&gt;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;理解 ML/DL 核心算法，掌握 PyTorch/TensorFlow 框架。&lt;/p&gt;
+&lt;h3 id=&#34;核心内容-2&#34;&gt;&lt;strong&gt;核心内容&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;1.&lt;strong&gt;机器学习基础&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;监督/无监督学习、特征工程、模型评估。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《The Elements of Statistical Learning》&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://www.coursera.org/learn/machine-learning&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Andrew Ng: Machine Learning (Coursera)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.&lt;strong&gt;深度学习&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CNN、RNN、Transformer、优化器（Adam、LAMB）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Deep Learning》（花书）&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://course.fast.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fast.ai: Practical Deep Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3.&lt;strong&gt;框架实战&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PyTorch（推荐）、TensorFlow。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;官方教程：&lt;a class=&#34;link&#34; href=&#34;https://pytorch.org/tutorials/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PyTorch Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;书籍：《Deep Learning with PyTorch》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;阶段-4ai-infrastructure-核心技术&#34;&gt;&lt;strong&gt;阶段 4：AI Infrastructure 核心技术&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;目标-3&#34;&gt;&lt;strong&gt;目标&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;掌握大规模训练、推理优化、MLOps 等 AI Infra 关键技术。&lt;/p&gt;
+&lt;h3 id=&#34;核心内容-3&#34;&gt;&lt;strong&gt;核心内容&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;1.&lt;strong&gt;分布式训练&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数据并行（PyTorch DDP）、模型并行（Megatron-LM）、流水线并行（GPipe）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;论文：&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2104.04473&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《Efficient Large-Scale Language Model Training》&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;框架：&lt;a class=&#34;link&#34; href=&#34;https://www.deepspeed.ai/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DeepSpeed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.&lt;strong&gt;模型推理优化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;量化（TensorRT）、剪枝、蒸馏。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/en-us/training/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NVIDIA DLI: Accelerating AI with TensorRT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3.&lt;strong&gt;MLOps&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特征存储（Feast）、模型监控（Evidently）、CI/CD（MLflow）。&lt;/li&gt;
+&lt;li&gt;推荐资源：
+&lt;ul&gt;
+&lt;li&gt;书籍：《Machine Learning Engineering》&lt;/li&gt;
+&lt;li&gt;课程：&lt;a class=&#34;link&#34; href=&#34;http://stanford.edu/class/cs329s/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stanford CS329S: ML Systems Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;阶段-5前沿方向选学&#34;&gt;&lt;strong&gt;阶段 5：前沿方向（选学）&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;可选方向&#34;&gt;&lt;strong&gt;可选方向&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;1.&lt;strong&gt;大模型 Infra&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ColossalAI、vLLM、FlashAttention。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2.&lt;strong&gt;硬件加速&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CUDA 编程、TPU 架构。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3.&lt;strong&gt;Serverless ML&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS Lambda + SageMaker。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;阶段-6实战项目&#34;&gt;&lt;strong&gt;阶段 6：实战项目&lt;/strong&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;推荐项目&#34;&gt;&lt;strong&gt;推荐项目&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;使用 Kubernetes 部署分布式训练任务。&lt;/li&gt;
+&lt;li&gt;用 TensorRT 优化 ResNet 推理延迟。&lt;/li&gt;
+&lt;li&gt;复现一篇 MLSys 论文（如 &lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/1910.02054&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《ZeRO: Memory Optimization》&lt;/a&gt;）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;strong&gt;总结&lt;/strong&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基础&lt;/strong&gt;：编程 + 算法 + 系统。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;进阶&lt;/strong&gt;：分布式 + 云计算 + ML。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;专项&lt;/strong&gt;：训练/推理优化 + MLOps。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;前沿&lt;/strong&gt;：大模型 + 硬件加速。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;保持学习的方式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;关注 &lt;strong&gt;MLSys、NeurIPS、ICML&lt;/strong&gt; 会议。&lt;/li&gt;
+&lt;li&gt;参与 &lt;strong&gt;开源项目&lt;/strong&gt;（如 HuggingFace、Ray）。&lt;/li&gt;
+&lt;li&gt;订阅 &lt;strong&gt;AI Infra 博客&lt;/strong&gt;（如 OpenAI Blog、DeepSpeed）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这份路线足够详细且可执行，建议根据自身背景调整学习节奏。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Memos</title>
+        <link>https://hem0u.github.io/hugo-blog/p/memos/</link>
+        <pubDate>Sun, 27 Apr 2025 17:06:32 +0800</pubDate>
+        
+        <guid>https://hem0u.github.io/hugo-blog/p/memos/</guid>
+        <description>&lt;img src="https://hem0u.github.io/hugo-blog/p/memos/image.png" alt="Featured image of post Memos" /&gt;&lt;blockquote&gt;
+&lt;p&gt;来源于GitHub上&lt;a class=&#34;link&#34; href=&#34;https://github.com/usememos/memos?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;memos项目&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;1-前置条件&#34;&gt;1 前置条件
+&lt;/h2&gt;&lt;h3 id=&#34;11一台已安装-docker-的服务器&#34;&gt;1.1一台已安装 Docker 的服务器
+&lt;/h3&gt;&lt;p&gt;虽说可以不用自己搭建一个服务器，在别人的服务器上托管也行，但是后续维护比较麻烦，所以本文还是使用了自己搭建的服务器&lt;/p&gt;
+&lt;h2 id=&#34;2&#34;&gt;2
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>更新日志</title>
         <link>https://hem0u.github.io/hugo-blog/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
         <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
@@ -16,60 +273,36 @@
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;更新日期&lt;/th&gt;
-          &lt;th&gt;版本号&lt;/th&gt;
-          &lt;th&gt;类型&lt;/th&gt;
-          &lt;th&gt;更新内容&lt;/th&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;完成时间&lt;/th&gt;
+          &lt;th&gt;备注&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-15&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.8.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;新增&lt;/td&gt;
-          &lt;td&gt;暗黑模式自动切换功能&lt;/td&gt;
+          &lt;td&gt;装修关于页&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-15&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.8.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;优化&lt;/td&gt;
-          &lt;td&gt;移动端目录导航响应速度&lt;/td&gt;
+          &lt;td&gt;增加分类&amp;amp;标签页&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-15&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.8.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;修复&lt;/td&gt;
-          &lt;td&gt;代码块行号对齐问题&lt;/td&gt;
+          &lt;td&gt;修复归档页面的布局&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-02&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.7.3&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;新增&lt;/td&gt;
-          &lt;td&gt;支持 Mermaid 图表渲染&lt;/td&gt;
+          &lt;td&gt;修复更新日志透明背景为白色背景&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-11-02&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.7.3&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;变更&lt;/td&gt;
-          &lt;td&gt;默认字体调整为 Inter + JetBrains Mono&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-10-18&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.6.5&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;修复&lt;/td&gt;
-          &lt;td&gt;RSS 订阅链接失效问题&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2023-10-05&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v2.6.0&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;新增&lt;/td&gt;
-          &lt;td&gt;多语言切换导航栏&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;2022-12-20&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;code&gt;v1.4.2&lt;/code&gt;&lt;/td&gt;
-          &lt;td&gt;初始&lt;/td&gt;
-          &lt;td&gt;发布基础版本&lt;/td&gt;
+          &lt;td&gt;&lt;del&gt;整个布局大更新&lt;/del&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;2025-04-27&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;参考了很多人的文档，有空整理&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

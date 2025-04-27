@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hem0u.github.io/hugo-blog/page/</loc>
-    <lastmod>2025-04-27T15:22:42+08:00</lastmod>
-  </url><url>
-    <loc>https://hem0u.github.io/hugo-blog/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2025-04-27T15:22:42+08:00</lastmod>
+    <loc>https://hem0u.github.io/hugo-blog/p/ai_infra%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
   </url><url>
     <loc>https://hem0u.github.io/hugo-blog/post/</loc>
-    <lastmod>2025-04-27T15:22:42+08:00</lastmod>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
+  </url><url>
+    <loc>https://hem0u.github.io/hugo-blog/tags/studing/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
+  </url><url>
+    <loc>https://hem0u.github.io/hugo-blog/tags/github/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
+  </url><url>
+    <loc>https://hem0u.github.io/hugo-blog/p/memos/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
+  </url><url>
+    <loc>https://hem0u.github.io/hugo-blog/page/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
+  </url><url>
+    <loc>https://hem0u.github.io/hugo-blog/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
   </url><url>
     <loc>https://hem0u.github.io/hugo-blog/tags/python/</loc>
     <lastmod>2025-04-27T15:22:42+08:00</lastmod>
@@ -40,6 +52,9 @@
   </url><url>
     <loc>https://hem0u.github.io/hugo-blog/categories/notes/</loc>
     <lastmod>2025-04-27T15:22:42+08:00</lastmod>
+  </url><url>
+    <loc>https://hem0u.github.io/hugo-blog/categories/course/</loc>
+    <lastmod>2025-04-27T18:40:54+08:00</lastmod>
   </url><url>
     <loc>https://hem0u.github.io/hugo-blog/search/</loc>
     <lastmod>2025-04-25T17:15:50+08:00</lastmod>
