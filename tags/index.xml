@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on DECADE</title>
+        <title>DECADE</title>
         <link>https://hem0u.github.io/hugo-blog/tags/</link>
-        <description>Recent content in Tags on DECADE</description>
+        <description>Recent content on DECADE</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>DECADE</copyright><atom:link href="https://hem0u.github.io/hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>DECADE</copyright><atom:link href="https://hem0u.github.io/hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Python</title>
+        <link>https://hem0u.github.io/hugo-blog/tags/python/</link>
+        <pubDate>Sat, 26 Apr 2025 15:40:47 +0800</pubDate>
+        
+        <guid>https://hem0u.github.io/hugo-blog/tags/python/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>

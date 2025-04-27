@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on DECADE</title>
-        <link>https://hem0u.github.io/hugo-blog/post/</link>
-        <description>Recent content in Posts on DECADE</description>
+        <title>笔记 on DECADE</title>
+        <link>https://hem0u.github.io/hugo-blog/categories/notes/</link>
+        <description>Recent content in 笔记 on DECADE</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>DECADE</copyright>
-        <lastBuildDate>Sun, 27 Apr 2025 15:22:42 +0800</lastBuildDate><atom:link href="https://hem0u.github.io/hugo-blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>DECADE</copyright><atom:link href="https://hem0u.github.io/hugo-blog/categories/notes/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Python学习笔记</title>
         <link>https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Sat, 26 Apr 2025 15:40:47 +0800</pubDate>
@@ -167,24 +166,6 @@
 &lt;p&gt;恭喜你，到这一步，已经可以运行.py文件了！🥳🥳&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;2-基础语法&#34;&gt;2 基础语法
 &lt;/h2&gt;</description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://hem0u.github.io/hugo-blog/p/test/</link>
-        <pubDate>Fri, 25 Apr 2025 17:32:44 +0800</pubDate>
-        
-        <guid>https://hem0u.github.io/hugo-blog/p/test/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>MyFirstBlog</title>
-        <link>https://hem0u.github.io/hugo-blog/p/myfirstblog/</link>
-        <pubDate>Fri, 25 Apr 2025 15:54:09 +0800</pubDate>
-        
-        <guid>https://hem0u.github.io/hugo-blog/p/myfirstblog/</guid>
-        <description>&lt;h3 id=&#34;hello-world&#34;&gt;Hello World
-&lt;/h3&gt;&lt;p&gt;你好&lt;/p&gt;
-</description>
         </item>
         
     </channel>
