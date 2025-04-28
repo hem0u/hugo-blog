@@ -7,10 +7,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>DECADE0888</copyright>
-        <lastBuildDate>Sun, 27 Apr 2025 18:40:54 +0800</lastBuildDate><atom:link href="https://hem0u.github.io/hugo-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 28 Apr 2025 15:25:14 +0800</lastBuildDate><atom:link href="https://hem0u.github.io/hugo-blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>https://hem0u.github.io/hugo-blog/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://hem0u.github.io/hugo-blog/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://hem0u.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://hem0u.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>更新日志</title>
         <link>https://hem0u.github.io/hugo-blog/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</link>
-        <pubDate>Sun, 27 Apr 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hem0u.github.io/hugo-blog/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</guid>
         <description>&lt;hr&gt;
@@ -29,22 +45,24 @@
           &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;增加分类&amp;amp;标签页&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;&lt;del&gt;增加“好物”页面&lt;/del&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;2025-4-28&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;参考自&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Xalaok&amp;rsquo;s Blog&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;修复归档页面的布局&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;del&gt;&lt;strong&gt;修复归档页面的布局&lt;/strong&gt;&lt;/del&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;2025-4-28&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;顺便添加了一些动画，参考自&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Xalaok&amp;rsquo;s Blog&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;修复更新日志透明背景为白色背景&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;&lt;del&gt;修复更新日志透明背景为白色背景&lt;/del&gt;&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;2025-4-28&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;放弃了居中标题和隐藏字数统计&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;del&gt;整个布局大更新&lt;/del&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;&lt;del&gt;整个布局大更新&lt;/del&gt;&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;&lt;strong&gt;2025-04-27&lt;/strong&gt;&lt;/td&gt;
           &lt;td&gt;参考了很多人的文档，有空整理&lt;/td&gt;
       &lt;/tr&gt;
@@ -53,22 +71,15 @@
 &lt;hr&gt;
 &lt;div style=&#34;text-align: center; margin-top: 2em;&#34;&gt;
 &lt;small&gt;更新频率：每月定期维护
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
         </item>
         <item>
-        <title>归档</title>
-        <link>https://hem0u.github.io/hugo-blog/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <title>好物</title>
+        <link>https://hem0u.github.io/hugo-blog/goods/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://hem0u.github.io/hugo-blog/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>关于</title>
-        <link>https://hem0u.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://hem0u.github.io/hugo-blog/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://hem0u.github.io/hugo-blog/goods/</guid>
         <description></description>
         </item>
         <item>
@@ -87,20 +98,7 @@
         <guid>https://hem0u.github.io/hugo-blog/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -109,9 +107,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
 </description>
         </item>
         
