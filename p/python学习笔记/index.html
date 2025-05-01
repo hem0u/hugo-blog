@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="/hugo-blog/scss/style.min.5d75a54329f32c65b92d0f98e894eb17d51f1444ffed0c16b9870e7804d441e4.css"><meta property='og:title' content="Python学习笔记">
 <meta property='og:description' content="方便忘记之后随时复习，资料颇多，会附在文章末尾">
 <meta property='og:url' content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/'>
-<meta property='og:site_name' content='DECADE'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-26T15:40:47&#43;08:00'/><meta property='article:modified_time' content='2025-04-28T15:25:14&#43;08:00'/><meta property='og:image' content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png' />
+<meta property='og:site_name' content='DECADE0888'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-26T15:40:47&#43;08:00'/><meta property='article:modified_time' content='2025-05-01T10:07:16&#43;08:00'/><meta property='og:image' content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png' />
 <meta name="twitter:title" content="Python学习笔记">
 <meta name="twitter:description" content="方便忘记之后随时复习，资料颇多，会附在文章末尾"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png' />
@@ -72,7 +72,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/hugo-blog">DECADE</a></h1>
+            <h1 class="site-name"><a href="/hugo-blog">DECADE0888</a></h1>
             <h2 class="site-description">希望今天是幸运的一天</h2>
         </div>
     </header><ol class="menu-social">
@@ -286,18 +286,24 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#1-python的环境配置">1 python的环境配置</a>
+    <li><a href="#python的环境配置">python的环境配置</a>
       <ol>
-        <li><a href="#11-安装-python">1.1 安装 python</a></li>
-        <li><a href="#12-pip">1.2 pip</a></li>
-        <li><a href="#13-venv">1.3 venv</a></li>
-        <li><a href="#14-vscode的配置">1.4 VSCode的配置</a></li>
+        <li><a href="#安装-python">安装 python</a></li>
+        <li><a href="#pip">pip</a></li>
+        <li><a href="#venv">venv</a></li>
+        <li><a href="#vscode的配置">VSCode的配置</a></li>
       </ol>
     </li>
-    <li><a href="#2-基础语法">2 基础语法</a>
+    <li><a href="#基础语法">基础语法</a>
       <ol>
-        <li><a href="#21-基本术语">2.1 基本术语</a></li>
-        <li><a href="#22-语法">2.2 语法</a></li>
+        <li><a href="#基本术语">基本术语</a></li>
+        <li><a href="#控制流工具">控制流工具</a>
+          <ol>
+            <li><a href="#if-语句"><a href="https://docs.python.org/zh-cn/3.13/reference/compound_stmts.html#if">if</a> 语句</a></li>
+            <li><a href="#for语句"><a href="https://docs.python.org/zh-cn/3.13/reference/compound_stmts.html#for">for</a>语句</a></li>
+            <li><a href="#range-函数"><a href="https://docs.python.org/zh-cn/3.13/library/stdtypes.html#range">range()</a> 函数</a></li>
+          </ol>
+        </li>
       </ol>
     </li>
   </ol>
@@ -385,13 +391,13 @@
 
 
                 <time>
-                    最后更新于 2025-04-28
+                    最后更新于 2025-05-01
                 </time>
             </div>
             <div>
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-word"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 12l1.333 5l1.667 -4l1.667 4l1.333 -5" /></svg>
                 <time class="article-words">
-                    804 字
+                    1472 字
                 </time>
             </div>
         
@@ -406,8 +412,8 @@
     <section class="article-content">
     
     
-    <h2 id="1-python的环境配置">1 python的环境配置
-</h2><h3 id="11-安装-python">1.1 安装 python
+    <h2 id="python的环境配置">python的环境配置
+</h2><h3 id="安装-python">安装 python
 </h3><ul>
 <li>在官网【<a class="link" href="https://www.python.org/downloads/"  target="_blank" rel="noopener"
     >Download Python | Python.org</a>】进行下载，在安装时勾选<strong>Path</strong>选项</li>
@@ -439,7 +445,7 @@
 		data-flex-basis="970px"
 	
 ></p>
-<h3 id="12-pip">1.2 pip
+<h3 id="pip">pip
 </h3><ul>
 <li>用于<strong>安装包</strong>与<strong>卸载包</strong>，例</li>
 </ul>
@@ -488,7 +494,7 @@
 <ul>
 <li>安装目录下的<code>Scripts</code>文件夹内</li>
 </ul>
-<h3 id="13-venv">1.3 venv
+<h3 id="venv">venv
 </h3><ul>
 <li>venv是创建虚拟环境，用与版本隔离(推荐在项目编写时使用虚拟环境)</li>
 </ul>
@@ -497,7 +503,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">source</span> <span class="o">./</span><span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span> <span class="c1"># Bash/ZSH(macOs + most Linux distro)</span>
 </span></span><span class="line"><span class="cl"><span class="o">./</span><span class="n">venv</span><span class="o">/</span><span class="n">Scripts</span><span class="o">/</span><span class="n">activate</span> <span class="c1">#Windows 启动venv</span>
 </span></span><span class="line"><span class="cl"><span class="n">deactivate</span> <span class="c1">#退出venv</span>
-</span></span></code></pre></div><h3 id="14-vscode的配置">1.4 VSCode的配置
+</span></span></code></pre></div><h3 id="vscode的配置">VSCode的配置
 </h3><ul>
 <li>
 <p>vscode 官网 【<a class="link" href="https://code.visualstudio.com/"  target="_blank" rel="noopener"
@@ -510,8 +516,9 @@
 <img src="pic4.png"  />
 <blockquote>
 <p>恭喜你，到这一步，已经可以运行.py文件了！🥳🥳</p></blockquote>
-<h2 id="2-基础语法">2 基础语法
-</h2><h3 id="21-基本术语">2.1 基本术语
+<h2 id="基础语法">基础语法
+</h2><p>因为我的目标是学习python支持支撑AI Infra学习，所以会跳过一些内容的学习，目前只记录我学过的一些东西</p>
+<h3 id="基本术语">基本术语
 </h3><p><strong>function</strong> （函数）：“输入→处理→输出”的工具箱</p>
 <p><strong>arguments</strong> （参数）：函数的输入，将以某种方式影响函数的行为</p>
 <p><strong>【e.g.】</strong> hello.py</p>
@@ -523,14 +530,75 @@
 <p><strong>variables</strong>  （变量）：存储某些值的容器</p>
 <p><strong>comments</strong>  （注释）：执行程序时，会忽略注释中的内容；在python中通常用 <strong>#</strong> 包含注释</p>
 <p><strong>pseudocode</strong>  （伪代码）：用人类语言（而不是编程语法）描述的代码逻辑</p>
-<h3 id="22-语法">2.2 语法
-</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#Ask user for their name</span>
-</span></span><span class="line"><span class="cl"><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&#34;What&#39;s your name? &#34;</span><span class="p">)</span>
+<h3 id="控制流工具">控制流工具
+</h3><h4 id="if-语句"><a class="link" href="https://docs.python.org/zh-cn/3.13/reference/compound_stmts.html#if"  target="_blank" rel="noopener"
+    >if</a> 语句
+</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter an integer: &#34;</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">#Say hello to user</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;hello, &#34;</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span> <span class="c1"># + 可以将左侧的字符串与右侧的字符串连接起来</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;hello,&#34;</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="c1">#使用逗号分隔，依次打印会使两个参数间间隔一个空格</span>
-</span></span></code></pre></div>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Negative changed to zero&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Zero&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">elif</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Single&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;More&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><p>可有零个或多个 <a class="link" href="https://docs.python.org/zh-cn/3.13/reference/compound_stmts.html#elif"  target="_blank" rel="noopener"
+    ><code>elif</code></a> 部分，<a class="link" href="https://docs.python.org/zh-cn/3.13/reference/compound_stmts.html#else"  target="_blank" rel="noopener"
+    ><code>else</code></a> 部分也是可选的。<code>elif</code> 是<code>else if</code>的缩写，这一点与C++不同</p>
+<h4 id="for语句"><a class="link" href="https://docs.python.org/zh-cn/3.13/reference/compound_stmts.html#for"  target="_blank" rel="noopener"
+    >for</a>语句
+</h4><p>Python上的<code>for</code>语句与C中的for也有很大不同，列表或字符串等任意序列的元素上迭代，按它们在序列中出现的顺序。 例如：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 度量一些字符串：</span>
+</span></span><span class="line"><span class="cl"><span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;window&#39;</span><span class="p">,</span> <span class="s1">&#39;defenestrate&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">))</span>
+</span></span></code></pre></div><p>很难正确地在迭代多项集的同时修改多项集的内容。更简单的方法是迭代多项集的副本或者创建新的多项集：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 创建示例多项集</span>
+</span></span><span class="line"><span class="cl"><span class="n">users</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Hans&#39;</span><span class="p">:</span> <span class="s1">&#39;active&#39;</span><span class="p">,</span> <span class="s1">&#39;Éléonore&#39;</span><span class="p">:</span> <span class="s1">&#39;inactive&#39;</span><span class="p">,</span> <span class="s1">&#39;景太郎&#39;</span><span class="p">:</span> <span class="s1">&#39;active&#39;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 策略：迭代一个副本</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">user</span><span class="p">,</span> <span class="n">status</span> <span class="ow">in</span> <span class="n">users</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">status</span> <span class="o">==</span> <span class="s1">&#39;inactive&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">del</span> <span class="n">users</span><span class="p">[</span><span class="n">user</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 策略：创建一个新多项集</span>
+</span></span><span class="line"><span class="cl"><span class="n">active_users</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">user</span><span class="p">,</span> <span class="n">status</span> <span class="ow">in</span> <span class="n">users</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">status</span> <span class="o">==</span> <span class="s1">&#39;active&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">active_users</span><span class="p">[</span><span class="n">user</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span>
+</span></span></code></pre></div><h4 id="range-函数"><a class="link" href="https://docs.python.org/zh-cn/3.13/library/stdtypes.html#range"  target="_blank" rel="noopener"
+    >range()</a> 函数
+</h4><p>内置函数 <code>range()</code> 用于生成等差数列：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</span></span></code></pre></div><p>生成的序列绝不会包括给定的终止值；<code>range(10)</code> 生成 10 个值——长度为 10 的序列的所有合法索引。range 可以不从 0 开始，且可以按给定的步长递增（即使是负数步长）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">,</span> <span class="o">-</span><span class="mi">30</span><span class="p">))</span>
+</span></span></code></pre></div><p>要按索引迭代序列，可以组合使用 <code>range()</code> 和 <a class="link" href="https://docs.python.org/zh-cn/3.13/library/functions.html#len"  target="_blank" rel="noopener"
+    ><code>len()</code></a>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Mary&#39;</span><span class="p">,</span> <span class="s1">&#39;had&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;little&#39;</span><span class="p">,</span> <span class="s1">&#39;lamb&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</span></span></code></pre></div><p>不过大多数情况下 <a class="link" href="https://docs.python.org/zh-cn/3.13/library/functions.html#enumerate"  target="_blank" rel="noopener"
+    ><code>enumerate()</code></a> 函数很方便，详见 <a class="link" href="https://docs.python.org/zh-cn/3.13/tutorial/datastructures.html#tut-loopidioms"  target="_blank" rel="noopener"
+    >循环的技巧</a>。</p>
+<p>如果直接打印一个 range 会发生意想不到的事情：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</span></span></code></pre></div><p><code>range()</code> 返回的对象在很多方面和列表的行为一样，但其实它和列表不一样。该对象只有在被迭代时才一个一个地返回所期望的列表项，并没有真正生成过一个含有全部项的列表，从而节省了空间。</p>
+<p>这种对象称为可迭代对象 <a class="link" href="https://docs.python.org/zh-cn/3.13/glossary.html#term-iterable"  target="_blank" rel="noopener"
+    >iterable</a>，适合作为需要获取一系列值的函数或程序构件的参数。<code>for</code> 语句就是这样的程序构件；以可迭代对象作为参数的函数例如 <a class="link" href="https://docs.python.org/zh-cn/3.13/library/functions.html#sum"  target="_blank" rel="noopener"
+    ><code>sum()</code></a>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>  <span class="c1"># 0 + 1 + 2 + 3</span>
+</span></span></code></pre></div><blockquote>
+<p><strong>参考资料</strong></p>
+<p><a class="link" href="https://docs.python.org/zh-cn/3.13/tutorial/"  target="_blank" rel="noopener"
+    >Python 教程 — Python 3.13.3 文档</a></p></blockquote>
+
 </section>
 
 
@@ -547,7 +615,7 @@
 
 
         <span>
-            最后更新于 最后更新于 2025-04-28
+            最后更新于 最后更新于 2025-05-01
         </span>
     </section></footer>
 
@@ -566,15 +634,15 @@
             
                 
 <article class="has-image">
-    <a href="/hugo-blog/p/ai_infra%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/">
+    <a href="/hugo-blog/p/ai-infra%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/">
         
         
             <div class="article-image">
-                <img src="/hugo-blog/p/ai_infra%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/image.d4e0ffbd3f7edd90f474b1d58be9da70_hu_7ba656add15070f5.png" 
+                <img src="/hugo-blog/p/ai-infra%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/image.d4e0ffbd3f7edd90f474b1d58be9da70_hu_7ba656add15070f5.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Ai_infra学习计划"
+                        alt="Featured image of post Ai Infra学习规划"
                         
                         data-hash="md5-1OD/vT9&#43;3ZD0dLHVi&#43;nacA==">
                 
@@ -582,7 +650,7 @@
         
 
         <div class="article-details">
-            <h2 class="article-title">Ai_infra学习计划</h2>
+            <h2 class="article-title">Ai Infra学习规划</h2>
         </div>
     </a>
 </article>
@@ -772,17 +840,7 @@
     --base-font-family: 'Alibaba';
     --code-font-family: 'Alibaba';
   }
-
-  #TableOfContents > ul, ol {
-        ul, ol {
-            display: none;
-        }
-        .open {
-            display: block;
-    }
-  }
   
-
   #backTopBtn {
         display: none;
         position: fixed;
@@ -834,6 +892,8 @@
         width: 22px;
         height: 16px;
     }
+
+    
 </style>
 
 <script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
@@ -848,39 +908,7 @@
 
 
 <script src=https://hem0u.github.io/hugo-blog/background/sakura.js>
-  function initTocHide() {
-      
-      let toc = document.querySelector(".widget--toc");
-      if (!toc) {
-          return;
-      }
-      
-      window.addEventListener('scroll', function() {
-          
-          let openUl = document.querySelectorAll(".open");
-          if (openUl.length > 0) {
-            openUl.forEach((ul) => {
-              ul.classList.remove("open")
-            })
-          }
-          
-          let currentLi = document.querySelector(".active-class");
-          if (!currentLi) {
-              return
-          }
-          
-          if (currentLi.children.length > 1) {
-              currentLi.children[1].classList.add("open")
-          }
-          
-          let ul = currentLi.parentElement;
-          do {
-              ul.classList.add("open");
-              ul = ul.parentElement.parentElement
-          } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
-      });
-  }
-  initTocHide()
+  
 
   
 

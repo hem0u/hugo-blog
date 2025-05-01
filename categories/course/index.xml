@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>教程 on DECADE</title>
+        <title>教程 on DECADE0888</title>
         <link>https://hem0u.github.io/hugo-blog/categories/course/</link>
-        <description>Recent content in 教程 on DECADE</description>
+        <description>Recent content in 教程 on DECADE0888</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>DECADE0888</copyright><atom:link href="https://hem0u.github.io/hugo-blog/categories/course/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Memos</title>
-        <link>https://hem0u.github.io/hugo-blog/p/memos/</link>
-        <pubDate>Sun, 27 Apr 2025 17:06:32 +0800</pubDate>
-        
-        <guid>https://hem0u.github.io/hugo-blog/p/memos/</guid>
-        <description>&lt;img src="https://hem0u.github.io/hugo-blog/p/memos/image.png" alt="Featured image of post Memos" /&gt;&lt;blockquote&gt;
-&lt;p&gt;来源于GitHub上&lt;a class=&#34;link&#34; href=&#34;https://github.com/usememos/memos?tab=readme-ov-file&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;memos项目&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;1-前置条件&#34;&gt;1 前置条件
-&lt;/h2&gt;&lt;h3 id=&#34;11一台已安装-docker-的服务器&#34;&gt;1.1一台已安装 Docker 的服务器
-&lt;/h3&gt;&lt;p&gt;虽说可以不用自己搭建一个服务器，在别人的服务器上托管也行，但是后续维护比较麻烦，所以本文还是使用了自己搭建的服务器&lt;/p&gt;
-&lt;h2 id=&#34;2&#34;&gt;2
-&lt;/h2&gt;</description>
-        </item>
-        
+        <copyright>DECADE0888</copyright><atom:link href="https://hem0u.github.io/hugo-blog/categories/course/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
