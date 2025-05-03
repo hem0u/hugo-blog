@@ -9,8 +9,8 @@
 <link rel="stylesheet" href="/hugo-blog/scss/style.min.5d75a54329f32c65b92d0f98e894eb17d51f1444ffed0c16b9870e7804d441e4.css"><meta property='og:title' content="Posts">
 <meta property='og:description' content="希望今天是幸运的一天">
 <meta property='og:url' content='https://hem0u.github.io/hugo-blog/post/'>
-<meta property='og:site_name' content='DECADE0888'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-05-01T10:07:16&#43;08:00 '/>
+<meta property='og:site_name' content='DECADE时年'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-05-03T22:37:53&#43;08:00 '/>
 <meta name="twitter:title" content="Posts">
 <meta name="twitter:description" content="希望今天是幸运的一天"><link rel="alternate" type="application/rss&#43;xml" href="https://hem0u.github.io/hugo-blog/post/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -56,7 +56,7 @@
                     
                     
                         
-                        <img src="/hugo-blog/img/avatar_hu_34b4364d4d89818.png" width="300"
+                        <img src="/hugo-blog/img/avatar_hu_9e3d4afc242d3428.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -69,7 +69,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/hugo-blog">DECADE0888</a></h1>
+            <h1 class="site-name"><a href="/hugo-blog">DECADE时年</a></h1>
             <h2 class="site-description">希望今天是幸运的一天</h2>
         </div>
     </header><ol class="menu-social">
@@ -306,7 +306,7 @@
                     <a href="/hugo-blog/archives/#2025">
                         
                             <span class="year">2025</span>
-                            <span class="count">4</span>
+                            <span class="count">5</span>
                         
                     </a> 
                 </div>
@@ -356,7 +356,7 @@
 
         <div class="section-card">
             <div class="section-details">
-                <h3 class="section-count">4 页面</h3>
+                <h3 class="section-count">5 页面</h3>
                 <h1 class="section-term">Posts</h1>
                 
             </div>
@@ -364,6 +364,20 @@
     </header>
     
     <section class="article-list--compact">
+        
+            <article>
+    <a href="/hugo-blog/p/test/">
+        <div class="article-details">
+            <h2 class="article-title">Test</h2>
+            
+            <footer class="article-time">
+                <time datetime='2025-04-25T17:32:44&#43;08:00'>2025-04-25</time>
+            </footer>
+        </div>
+
+        
+    </a>
+</article>
         
             <article>
     <a href="/hugo-blog/p/myfirstblog/">
@@ -439,35 +453,35 @@
                 >
             </script><script type="text/javascript" src="/hugo-blog/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
-    function backToTop() {
-      document.documentElement.scrollIntoView({
-        behavior: 'smooth',
-      })
+  function backToTop() {
+    document.documentElement.scrollIntoView({
+      behavior: 'smooth',
+    })
+  }
+
+  window.onload = function () {
+    let scrollTop =
+      this.document.documentElement.scrollTop || this.document.body.scrollTop
+    let totopBtn = this.document.getElementById('back-to-top')
+    if (scrollTop > 0) {
+      totopBtn.style.display = 'inline'
+    } else {
+      totopBtn.style.display = 'none'
     }
-  
-    window.onload = function () {
-      let scrollTop =
-        this.document.documentElement.scrollTop || this.document.body.scrollTop
-      let totopBtn = this.document.getElementById('back-to-top')
-      if (scrollTop > 0) {
-        totopBtn.style.display = 'inline'
-      } else {
-        totopBtn.style.display = 'none'
-      }
+  }
+
+  window.onscroll = function () {
+    let scrollTop =
+      this.document.documentElement.scrollTop || this.document.body.scrollTop
+    let totopBtn = this.document.getElementById('back-to-top')
+    if (scrollTop < 200) {
+      totopBtn.style.display = 'none'
+    } else {
+      totopBtn.style.display = 'inline'
+      totopBtn.addEventListener('click', backToTop, false)
     }
-  
-    window.onscroll = function () {
-      let scrollTop =
-        this.document.documentElement.scrollTop || this.document.body.scrollTop
-      let totopBtn = this.document.getElementById('back-to-top')
-      if (scrollTop < 200) {
-        totopBtn.style.display = 'none'
-      } else {
-        totopBtn.style.display = 'inline'
-        totopBtn.addEventListener('click', backToTop, false)
-      }
-    }
-  </script>
+  }
+</script>
 
 <script>
     (function () {
@@ -481,8 +495,19 @@
     }());
 </script>
 
+<a href="#" id="back-to-top" title="返回顶部"></a>
+
 
 <style>
+  #TableOfContents > ul, ol {
+      ul, ol {
+          display: none;
+      }
+      .open {
+          display: block;
+      }
+    }
+
   @font-face {
     font-family: 'Alibaba';
     src: url(https://hem0u.github.io/hugo-blog/font/AlibabaPuHuiTi-3-55-RegularL3.ttf) format('truetype'); 
@@ -545,8 +570,116 @@
         height: 16px;
     }
 
-    
+    #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    background-color: var(--body-background);
+    box-shadow: var(--shadow-l2);
+    font-size: 20px;  
+    text-align: center;
+    line-height: 38px;  
+    cursor: pointer;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease;  
+  }
+
+  #back-to-top:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    transform: rotate(135deg);
+    height: 8px;  
+    width: 8px;  
+    border-width: 0 0 2px 2px;
+    border-color: var(--back-to-top-color);
+    border-style: solid;
+  }
+
+  #back-to-top:hover {
+    transform: scale(1.1);  
+    background-color: var(--accent-background);  
+  }
+
+  #back-to-top:hover:before {
+    border-color: var(--accent-color);  
+  }
+
+   
+  @media screen and (max-width: 768px) {
+    #back-to-top {
+      bottom: 5px;
+      right: var(--container-padding);
+      width: 30px;  
+      height: 30px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    #back-to-top {
+      bottom: 10px;
+      right: 20px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 1536px) {
+    #back-to-top {
+      bottom: 15px;
+      right: 25px;
+       
+    }
+  }
 </style>
+
+<script>
+  function initTocHide() {
+      
+      let toc = document.querySelector(".widget--toc");
+      if (!toc) {
+          return;
+      }
+      
+      window.addEventListener('scroll', function() {
+          
+          let openUl = document.querySelectorAll(".open");
+          if (openUl.length > 0) {
+            openUl.forEach((ul) => {
+              ul.classList.remove("open")
+            })
+          }
+          
+          let currentLi = document.querySelector(".active-class");
+          if (!currentLi) {
+              return
+          }
+          
+          if (currentLi.children.length > 1) {
+              currentLi.children[1].classList.add("open")
+          }
+          
+          let ul = currentLi.parentElement;
+          do {
+              ul.classList.add("open");
+              ul = ul.parentElement.parentElement
+          } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+      });
+  }
+  initTocHide()
+</script>
 
 <script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css" crossorigin="anonymous" />
