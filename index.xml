@@ -71,8 +71,8 @@
         <guid>https://hem0u.github.io/hugo-blog/p/ai-infra%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/</guid>
         <description>&lt;img src="https://hem0u.github.io/hugo-blog/p/ai-infra%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/image.png" alt="Featured image of post Ai Infra学习规划" /&gt;&lt;p&gt;因为对AI比较的感兴趣，所以打算从AI Infra（人工智能基础设施）入手，以下是我的学习路线：&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;一学习总纲总时长8-10个月&#34;&gt;&lt;strong&gt;一、学习总纲（总时长：8-10个月）&lt;/strong&gt;
-&lt;/h3&gt;&lt;table&gt;
+&lt;h2 id=&#34;学习总纲&#34;&gt;学习总纲
+&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;阶段&lt;/strong&gt;&lt;/th&gt;
@@ -108,8 +108,8 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;二分阶段详细规划&#34;&gt;&lt;strong&gt;二、分阶段详细规划&lt;/strong&gt;
-&lt;/h2&gt;&lt;h3 id=&#34;阶段1基础筑基1-2个月&#34;&gt;&lt;strong&gt;阶段1：基础筑基（1-2个月）&lt;/strong&gt;
+&lt;h2 id=&#34;分阶段详细规划&#34;&gt;分阶段详细规划
+&lt;/h2&gt;&lt;h3 id=&#34;阶段1基础筑基&#34;&gt;&lt;strong&gt;阶段1：基础筑基&lt;/strong&gt;
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：建立Python编程能力与系统基础，跳过冗余内容&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -309,8 +309,8 @@
 &lt;/h4&gt;&lt;p&gt;对于字符串而言，可执行的最简单的操作之一是修改其中字母的大小写&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;david baker&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#David Baker&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个示例中，变量name指向小写的字符串“david baker”。在函数调用print()中，方法&lt;strong&gt;title()&lt;/strong&gt; 出现在这个变量后。&lt;strong&gt;方法&lt;/strong&gt; 是Python可对数据执行的操作。在&lt;strong&gt;name.title()&lt;/strong&gt; 中，name后面的句点（ &lt;strong&gt;.&lt;/strong&gt; ）让Python对变量name执行方法title()指定的操作。每个方法后面都跟着一对圆括号，这是因为方法通常需要额外的信息来完成其工工作。这种信息是在圆括号内提供的。函数title()不需要额外的信息，因此它后面的圆括号是空的&lt;/p&gt;
-&lt;p&gt;方法&lt;strong&gt;title()&lt;/strong&gt; 以首字母大写的方式显示每个单词，即&lt;strong&gt;将每个单词的首字母都改为大写&lt;/strong&gt;。这很有用，因为你经常需要将名字视为信息。例如，你可能希望程序将值Ada、ADA和ada视为同一个名字，并将它们都显示为Ada&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;在这个示例中，变量name指向小写的字符串“david baker”。在函数调用print()中，方法&lt;code&gt;title()&lt;/code&gt;出现在这个变量后。&lt;strong&gt;方法&lt;/strong&gt; 是Python可对数据执行的操作。在&lt;code&gt;name.title()&lt;/code&gt;中，name后面的句点（ &lt;strong&gt;.&lt;/strong&gt; ）让Python对变量name执行方法title()指定的操作。每个方法后面都跟着一对圆括号，这是因为方法通常需要额外的信息来完成其工工作。这种信息是在圆括号内提供的。函数title()不需要额外的信息，因此它后面的圆括号是空的&lt;/p&gt;
+&lt;p&gt;方法&lt;code&gt;title()&lt;/code&gt;以首字母大写的方式显示每个单词，即&lt;strong&gt;将每个单词的首字母都改为大写&lt;/strong&gt;。这很有用，因为你经常需要将名字视为信息。例如，你可能希望程序将值Ada、ADA和ada视为同一个名字，并将它们都显示为Ada&lt;/p&gt;
 &lt;p&gt;还有其他几个很有用的大小写处理方法。例如，要将字符串改为全部大写或全部小写，可以像下面这样做：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;David Baker&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;upper&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#DAVID BAKER&lt;/span&gt;
@@ -330,12 +330,25 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;full_name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;first_name&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;last_name&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;full_name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;使用制表符或换行符来添加空白&#34;&gt;使用制表符或换行符来添加空白
-&lt;/h4&gt;&lt;blockquote&gt;
+&lt;/h4&gt;&lt;p&gt;在编程中，空白泛指任何非打印字符，如&lt;strong&gt;空格&lt;/strong&gt; 、&lt;strong&gt;制表符&lt;/strong&gt; 和&lt;strong&gt;换行符&lt;/strong&gt; 。可以使用空白来组织输出，让用户阅读起来更容易&lt;/p&gt;
+&lt;p&gt;要在字符串中添加制表符，可使用字符组合&lt;code&gt;\t&lt;/code&gt;，如下述代码的所示：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Python&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\t&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Python&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;要在字符串中添加换行符，可以使用字符组合&lt;code&gt;\n&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Language:&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Python&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;C++&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;Java&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;删除空白&#34;&gt;删除空白
+&lt;/h4&gt;&lt;p&gt;空白很重要，因为你经常需要比较两个字符串是否相同。一个重要的示例是，在用户登录网站时检查其用户名。不过在非常简单的情形下，额外的空格也可能令人迷惑。所幸，在Python中删除用户输入数据中的多余空白易如反掌。&lt;/p&gt;
+&lt;p&gt;Python能够找出字符串开头和末尾多余的空白。要确保字符串末尾没有空白，可使用方法&lt;code&gt;rstrip()&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;favorite_language&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Python  &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#39;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;favorite_language&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#&amp;#39;Python  &amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#39;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;favorite_language&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rstrip&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;#&amp;#39;Python&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;参考资料&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.python.org/zh-cn/3.13/tutorial/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Python 教程 — Python 3.13.3 文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cs50.harvard.edu/python/2022/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;CS50&amp;rsquo;s Introduction to Programming with Python&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    &gt;CS50&amp;rsquo;s Introduction to Programming with Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;《Python编程：从入门到实践（第2版）》第1-11章&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
         <item>
