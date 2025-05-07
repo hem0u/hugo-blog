@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/'>
 
-<link rel="stylesheet" href="/hugo-blog/scss/style.min.5d75a54329f32c65b92d0f98e894eb17d51f1444ffed0c16b9870e7804d441e4.css"><meta property='og:title' content="Python学习笔记">
+<link rel="stylesheet" href="/hugo-blog/scss/style.min.3f68e81ff8999e2e814387bf406f6eb9577fd4b14d4c3ba0197d6dc4ad2c5306.css"><meta property='og:title' content="Python学习笔记">
 <meta property='og:description' content="方便忘记之后随时复习，资料颇多，会附在文章末尾">
 <meta property='og:url' content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/'>
 <meta property='og:site_name' content='DECADE时年'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-26T15:40:47&#43;08:00'/><meta property='article:modified_time' content='2025-05-06T22:20:11&#43;08:00'/><meta property='og:image' content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-26T15:40:47&#43;08:00'/><meta property='article:modified_time' content='2025-05-07T22:14:41&#43;08:00'/><meta property='og:image' content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png' />
 <meta name="twitter:title" content="Python学习笔记">
 <meta name="twitter:description" content="方便忘记之后随时复习，资料颇多，会附在文章末尾"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://hem0u.github.io/hugo-blog/p/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png' />
@@ -308,8 +308,27 @@
             <li><a href="#在字符串中使用变量">在字符串中使用变量</a></li>
             <li><a href="#使用制表符或换行符来添加空白">使用制表符或换行符来添加空白</a></li>
             <li><a href="#删除空白">删除空白</a></li>
+            <li><a href="#使用字符串时避免语法错误">使用字符串时避免语法错误</a></li>
           </ol>
         </li>
+        <li><a href="#数">数</a>
+          <ol>
+            <li><a href="#整数">整数</a></li>
+            <li><a href="#浮点数">浮点数</a></li>
+            <li><a href="#整数和浮点数">整数和浮点数</a></li>
+            <li><a href="#数中的下划线">数中的下划线</a></li>
+            <li><a href="#同时给多个变量赋值">同时给多个变量赋值</a></li>
+            <li><a href="#常量">常量</a></li>
+          </ol>
+        </li>
+        <li><a href="#注释">注释</a>
+          <ol>
+            <li><a href="#如何编写注释">如何编写注释</a></li>
+            <li><a href="#该编写什么样的注释">该编写什么样的注释</a></li>
+          </ol>
+        </li>
+        <li><a href="#python之禅">Python之禅</a></li>
+        <li><a href="#小结">小结</a></li>
       </ol>
     </li>
   </ol>
@@ -397,13 +416,13 @@
 
 
                 <time>
-                    最后更新于 2025-05-06
+                    最后更新于 2025-05-07
                 </time>
             </div>
             <div>
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-file-word"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" /><path d="M9 12l1.333 5l1.667 -4l1.667 4l1.333 -5" /></svg>
                 <time class="article-words">
-                    2424 字
+                    5005 字
                 </time>
             </div>
         
@@ -603,13 +622,95 @@
 </span></span></code></pre></div><p>要在字符串中添加换行符，可以使用字符组合<code>\n</code>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Language:</span><span class="se">\n</span><span class="s2">Python</span><span class="se">\n</span><span class="s2">C++</span><span class="se">\n</span><span class="s2">Java&#34;</span><span class="p">)</span>
 </span></span></code></pre></div><h4 id="删除空白">删除空白
-</h4><p>空白很重要，因为你经常需要比较两个字符串是否相同。一个重要的示例是，在用户登录网站时检查其用户名。不过在非常简单的情形下，额外的空格也可能令人迷惑。所幸，在Python中删除用户输入数据中的多余空白易如反掌。</p>
+</h4><p>空白很重要，因为你经常需要比较两个字符串是否相同。一个重要的示例是，在用户登录网站时检查其用户名。不过在非常简单的情形下，额外的空格也可能令人迷惑。所幸，在Python中删除用户输入数据中的多余空白易如反掌</p>
 <p>Python能够找出字符串开头和末尾多余的空白。要确保字符串末尾没有空白，可使用方法<code>rstrip()</code></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">favorite_language</span> <span class="o">=</span> <span class="s2">&#34;Python  &#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;&#39;</span><span class="si">{</span><span class="n">favorite_language</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>  <span class="c1">#&#39;Python  &#39;</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;&#39;</span><span class="si">{</span><span class="n">favorite_language</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="si">}</span><span class="s2">&#39;&#34;</span><span class="p">)</span>  <span class="c1">#&#39;Python&#39;</span>
-</span></span></code></pre></div><blockquote>
-<p><strong>参考资料</strong></p>
+</span></span></code></pre></div><p>你还可以剔除字符串开头的空白，或者同时剔除字符串两边的空白。为此，可分别使用方法<code>lstrip()</code> 和<code>strip()</code> ：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">favorite_language</span> <span class="o">=</span> <span class="s1">&#39;  python &#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">favorite_language</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>  <span class="c1"># &#39;  python&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">favorite_language</span><span class="o">.</span><span class="n">lstrip</span><span class="p">())</span>  <span class="c1"># &#39;python &#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">favorite_language</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>   <span class="c1"># &#39;python&#39;</span>
+</span></span></code></pre></div><p>在实际程序中，这些剥除函数最常用于在存储用户输入前对其进行清理</p>
+<h4 id="使用字符串时避免语法错误">使用字符串时避免语法错误
+</h4><p><strong>语法错误</strong> 是一种你时不时会遇到的错误。程序中包含非法的Python代码时，就会导致语法错误。例如，在用单引号括起的字符串中，如果包含撇号，就将导致错误。这是因为这会导致Python将第一个单引号和撇号之间的内容视为一个字符串，进而将余下的文本视为Python代码，从而引发错误</p>
+<p><strong>注意</strong> 编写程序时，编辑器的语法高亮功能可帮助你快速找出某些语法错误。看到Python代码以普通句子的颜色显示，或者普通句子以Python代码的颜色显示时，就可能意味着文件中存在引号不匹配的情况</p>
+<h3 id="数">数
+</h3><p>在编程中，经常使用数来记录得分、表示可视化数据、存储Web应用信息，等等。Python能根据数的用法以不同的方式处理它们</p>
+<h4 id="整数">整数
+</h4><p>在Python中，可对整数执行加（<code>+</code> ）减（<code>-</code> ）乘（<code>*</code> ）除（<code>/</code> ）运算。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">#5</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">#1</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">#6</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">#1.5</span>
+</span></span></code></pre></div><p>在终端会话中，Python直接返回运算结果。Python使用两个乘号表示乘方运算：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span> <span class="c1"># 9</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">**</span> <span class="mi">3</span><span class="p">)</span> <span class="c1"># 27</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">10</span> <span class="o">**</span> <span class="mi">6</span><span class="p">)</span> <span class="c1"># 1000000</span>
+</span></span></code></pre></div><p>如果想改变运算次序，可以使用<code>()</code>，被括号括起来的运算为最优先</p>
+<h4 id="浮点数">浮点数
+</h4><p>Python将所有带小数点的数称为<strong>浮点数</strong></p>
+<p>从很大程度上说，使用浮点数时无须考虑其行为。你只需输入要使用的数，Python通常会按你期望的方式处理它们：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mf">0.1</span> <span class="o">*</span> <span class="mi">4</span><span class="p">)</span>  <span class="c1"># 0.4</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mf">0.2</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">)</span>  <span class="c1"># 0.4</span>
+</span></span></code></pre></div><p>但需要注意的是，结果包含的小数位数可能是不确定的：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mf">0.1</span> <span class="o">*</span> <span class="mi">3</span><span class="p">)</span>  <span class="c1"># 0.30000000000000004</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mf">0.2</span> <span class="o">+</span> <span class="mf">0.1</span><span class="p">)</span>  <span class="c1"># 0.30000000000000004</span>
+</span></span></code></pre></div><p>所有语言都存在这种问题，Python会尽力找到一种精确表示结果的方法，但鉴于计算机内部表示数的方式，这在有些情况下很难。就现在而言，暂时忽略多余的小数位数即可</p>
+<h4 id="整数和浮点数">整数和浮点数
+</h4><p>将任意两个数相除时，结果总是浮点数，即便这两个数都是整数且能整除：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">4</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1">#2.0</span>
+</span></span></code></pre></div><p>在其他任何运算中，如果一个操作数是整数，另一个操作数是浮点数，结果也总是浮点数：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mf">2.0</span><span class="p">)</span>  <span class="c1"># 3.0</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="mf">3.0</span><span class="p">)</span>  <span class="c1"># 6.0</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="mf">3.0</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>  <span class="c1"># 9.0</span>
+</span></span></code></pre></div><p>无论是哪种运算，只要有操作数是浮点数，Python默认得到的总是浮点数，即便结果原本为整数也是如此</p>
+<h4 id="数中的下划线">数中的下划线
+</h4><p>书写很大的数时，可使用下划线将其中的数字分组，使其更清晰易读：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">universe_age</span> <span class="o">=</span> <span class="mi">14_000_000_000</span>
+</span></span></code></pre></div><p>当你打印这种使用下划线定义的数时，Python不会打印其中的下划线：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">universe_age</span> <span class="o">=</span> <span class="mi">14_000_000_000</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">universe_age</span><span class="p">)</span>  <span class="c1"># 14000000000</span>
+</span></span></code></pre></div><p>这是因为存储这种数时，Python会忽略其中的下划线。将数字分组时，即便不是将每三位分成一组，也不会影响最终的值。在Python看来，<code>1000</code> 与<code>1_000</code> 没什么不同，<code>1_000</code> 与<code>10_00</code> 也没什么不同。这种表示法适用于整数和浮点数，但只有Python 3.6和更高的版本支持</p>
+<h4 id="同时给多个变量赋值">同时给多个变量赋值
+</h4><p>可在一行代码中给多个变量赋值，这有助于缩短程序并提高其可读性。这种做法最常用于将一系列数赋给一组变量</p>
+<p>例如，下面演示了如何将变量<code>x</code> 、<code>y</code> 和<code>z</code> 都初始化为零：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+</span></span></code></pre></div><p>这样做时，需要用逗号将变量名分开；对于要赋给变量的值，也需同样处理。Python将按顺序将每个值赋给对应的变量。只要变量和值的个数相同，Python就能正确地将它们关联起来</p>
+<h4 id="常量">常量
+</h4><p><strong>常量</strong> 类似于变量，但其值在程序的整个生命周期内保持不变。Python没有内置的常量类型，但Python程序员会使用全大写来指出应将某个变量视为常量，其值应始终不变：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">MAX_CONNECTIONS</span> <span class="o">=</span> <span class="mi">5000</span>
+</span></span></code></pre></div><p>在代码中，要指出应将特定的变量视为常量，可将其字母全部大写</p>
+<h3 id="注释">注释
+</h3><p>在大多数编程语言中，注释是一项很有用的功能。随着程序越来越大、越来越复杂，就应在其中添加说明，对解决问题的方法进行大致的阐述。<strong>注释</strong> 让你能够使用自然语言在程序中添加说明</p>
+<h4 id="如何编写注释">如何编写注释
+</h4><p>在Python中，注释用井号（<code>#</code> ）标识。井号后面的内容都会被Python解释器忽略，如下所示：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 向大家问好。</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello Python people!&#34;</span><span class="p">)</span>  <span class="c1">#Hello Python people!</span>
+</span></span></code></pre></div><p>Python解释器将忽略第一行，只执行第二行</p>
+<h4 id="该编写什么样的注释">该编写什么样的注释
+</h4><p>编写注释的主要目的是阐述代码要做什么，以及是如何做的。虽然可以通过研究代码来确定各个部分的工作原理，但通过编写注释以清晰的自然语言对解决方案进行概述，可节省很多时间</p>
+<p>要成为专业程序员或与其他程序员合作，就必须编写有意义的注释。当前，大多数软件是合作编写的，编写者可能是同一家公司的多名员工，也可能是众多致力于同一个开源项目的人员。训练有素的程序员都希望代码中包含注释</p>
+<h3 id="python之禅">Python之禅
+</h3><p>经验丰富的程序员倡导尽可能避繁就简。Python社区的理念都包含在Tim Peters撰写的“Python之禅”中。要获悉这些有关编写优秀Python代码的指导原则，只需在解释器中执行命令<code>import this</code> 。这里不打算赘述整个“Python之禅”，而只分享其中的几条原则</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">this</span>  
+</span></span><span class="line"><span class="cl"><span class="c1">#The Zen of Python, by Tim Peters</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Beautiful is better than ugly.</span>
+</span></span></code></pre></div><p>Python程序员笃信代码可以编写得漂亮而优雅。编程是要解决问题的，设计良好、高效而漂亮的解决方案都会让程序员心生敬意</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#Simple is better than complex.</span>
+</span></span></code></pre></div><p>如果有两个解决方案，一个简单、一个复杂，但都行之有效，就选择简单的解决方案吧。这样，你编写的代码将更容易维护，你或他人以后改进这些代码时也会更容易</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#Complex is better than complicated.</span>
+</span></span></code></pre></div><p>现实是复杂的，有时候可能没有简单的解决方案。在这种情况下，就选择最简单可行的解决方案吧</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#Readability counts.</span>
+</span></span></code></pre></div><p>即便是复杂的代码，也要让它易于理解。开发的项目涉及复杂代码时，一定要为这些代码编写有益的注释</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#There should be one-- and preferably only one --obvious way to do it.</span>
+</span></span></code></pre></div><p>如果让两名Python程序员去解决同一个问题，他们提供的解决方案应大致相同。这并不是说编程没有创意空间，而是恰恰相反！然而，大部分编程工作是使用常见解决方案来解决简单的小问题，但这些小问题都包含在更庞大、更有创意空间的项目中。在你的程序中，各种具体细节对其他Python程序员来说都应易于理解</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#Now is better than never.</span>
+</span></span></code></pre></div><p>你可以用余生来学习Python和编程的纷繁难懂之处，但这样你什么项目都完不成。不要企图编写完美无缺的代码，而是要先编写行之有效的代码，再决定是对其做进一步改进，还是转而去编写新代码。</p>
+<h3 id="小结">小结
+</h3><p>在本章中，学习了：如何使用变量；如何创建描述性变量名以及如何消除名称错误和语法错误；字符串是什么，以及如何使用小写、大写和首字母大写方式显示字符串；使用空白来显示整洁的输出，以及如何剔除字符串中多余的空白；如何使用整数和浮点数；一些使用数值数据的方式。还学习了如何编写说明性注释，让代码对你和其他人来说更容易理解。最后，了解了让代码尽可能简单的理念。</p>
+<blockquote>
 <p><a class="link" href="https://docs.python.org/zh-cn/3.13/tutorial/"  target="_blank" rel="noopener"
     >Python 教程 — Python 3.13.3 文档</a></p>
 <p><a class="link" href="https://cs50.harvard.edu/python/2022/"  target="_blank" rel="noopener"
@@ -632,7 +733,7 @@
 
 
         <span>
-            最后更新于 最后更新于 2025-05-06
+            最后更新于 最后更新于 2025-05-07
         </span>
     </section></footer>
 
